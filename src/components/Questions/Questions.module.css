@@ -1,0 +1,6 @@
+.questions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 90vh;
+}
