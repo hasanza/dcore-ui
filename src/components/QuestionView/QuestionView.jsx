@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 //receives question from parent
 function QuestionView() {
   const { viewQuestion } = useContext(GlobalContext);
+
   //receive data as prop from Question and display it.
   if (viewQuestion.description) {
     return (

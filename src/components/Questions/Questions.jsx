@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
 import { QuestionList, QuestionView } from "../";
 import styles from "./Questions.module.css";
-// import { GlobalContext } from "../../store/GlobalState";
+ import { GlobalContext } from "../../store/GlobalState";
 
 function Questions() {
-//   const { questions } = useContext(GlobalContext);
+
+const {currentProject} = useContext(GlobalContext);
+
+// console.log(currentProject);
 
   return (
       //sending question array to QuestionList

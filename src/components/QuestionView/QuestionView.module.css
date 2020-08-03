@@ -19,7 +19,7 @@ h2 {
 }
 
 .submit {
-    padding: 0px 11px;
+    padding: 2px 13px;
     display: inline-block;
     border-radius: 15px;
     background-color: #02b801;
@@ -45,5 +45,13 @@ h2 {
 .info h2{
     margin-top: 25%;
     display: inline-block;
+}
+
+.ans {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    size: 10;
 }
 

@@ -25,6 +25,12 @@
   padding-top: 3px;
 }
 
+.details {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .questionClass {
   background-color: #007480;
   color: white;
