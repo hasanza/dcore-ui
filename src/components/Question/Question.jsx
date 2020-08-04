@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import styles from "./Question.module.css";
 import { GlobalContext } from "../../store/GlobalState";
 import { FaClock } from "react-icons/fa";
@@ -16,14 +16,17 @@ function Question({ question }) {
     //get data as prop from QuestionList and display it
     //onClick, tringer common parent state change who sends it to sibling
     <Fade bottom>
-      <div className={styles.question} onClick={onChange}>
+      <div
+        className={styles.question}
+        onClick={onChange}
+      >
         <h3>{question.title}</h3>
         <div className={styles.details}>
           <p className={styles.questionClass}>{question.class}</p>
 
           <p className={styles.time}>
             <FaClock style={{}} />
-            <span style={{ marginLeft: "3px", marginBottom: "2px"}}>
+            <span style={{ marginLeft: "3px", marginBottom: "2px" }}>
               {question.time} min
             </span>
           </p>

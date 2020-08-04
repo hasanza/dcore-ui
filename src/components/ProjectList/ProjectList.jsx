@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react'
+import React, { useContext} from 'react'
 import styles from "./ProjectList.module.css";
 import {GlobalContext} from "../../store/GlobalState";
 import {Project} from "../";

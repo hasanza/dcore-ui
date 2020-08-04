@@ -1,81 +1,80 @@
 .questionView {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    width: 75%;
-    padding: 15px;
-    height: 90vh;
-    box-sizing: border-box;
-    box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
-    border-radius: 6px;
-    border: 1px solid #007480;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  width: 75%;
+  padding: 15px;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+  border-radius: 6px;
+  border: 1px solid #007480;
 }
 
 h2 {
-    display: inline-block;
-    margin: 0;
+  display: inline-block;
+  margin: 0;
 }
 
 .submit {
-    padding: 2px 13px;
-    display: inline-block;
-    border-radius: 15px;
-    background-color: #02b801;
-    color: white;
-    font-weight: 600;
-    width: fit-content;
-    cursor: pointer;
+  padding: 2px 13px;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #02b801;
+  color: white;
+  font-weight: 600;
+  width: fit-content;
+  cursor: pointer;
 }
 
-.info{
-    color: #007480;
-    margin-top: 10px;
-    width: 75%;
-    padding: 15px;
-    height: 90vh;
-    box-sizing: border-box;
-    box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
-    border-radius: 6px;
-    border: 1px solid #007480;
-    text-align: center;
+.info {
+  color: #007480;
+  margin-top: 7px;
+  width: 75%;
+  padding: 15px;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+  border-radius: 6px;
+  border: 1px solid #007480;
+  text-align: center;
 }
 
-.info h2{
-    margin-top: 25%;
-    display: inline-block;
+.info h2 {
+  margin-top: 25%;
+  display: inline-block;
 }
 
 .ans {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-
+  width: 100%;
+  height: fit-content;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-bottom: 20px;
 }
 
 .reward {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .reward span {
-    font-weight: 700;
-    
+  font-weight: 700;
 }
 
 .coin {
-    background-color: gold;
-    padding: 0px 3px;
-    border-radius: 20px;
-    width: fit-content;
-    font-weight: 800;
-    border: 2px solid orange;
-    color: black;
-    margin-right: 5px;
+  background-color: gold;
+  padding: 0px 3px;
+  border-radius: 20px;
+  width: fit-content;
+  font-weight: 800;
+  border: 2px solid orange;
+  color: black;
+  margin-right: 5px;
 }

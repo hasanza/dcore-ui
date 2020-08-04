@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import styles from "./QuestionView.module.css";
 import { GlobalContext } from "../../store/GlobalState";
 import Fade from "react-reveal/Fade";
-import { projects } from "../../store/projects";
+
 //receives question from parent
 function QuestionView() {
   const { viewQuestion } = useContext(GlobalContext);
@@ -19,8 +19,13 @@ function QuestionView() {
 
         <p>{viewQuestion.description}</p>
         <form action="/">
-          <label style={{color: "#007480", fontWeight: "700"}} htmlFor="explanation">Explanation</label>
-          <textarea name="submit" className={styles.ans}></textarea>
+          <label
+            style={{ color: "#007480", fontWeight: "700" }}
+            htmlFor="explanation"
+          >
+            Explanation
+          </label>
+          <textarea className={styles.ans}></textarea>
         </form>
         <p className={styles.submit}>Submit</p>
       </div>
