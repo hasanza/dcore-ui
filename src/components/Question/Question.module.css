@@ -18,17 +18,27 @@
 }
 
 .details p {
-  padding: 0 10px;
-  display: inline-block;
+  padding: 0 7px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
   border-radius: 15px;
   margin-right: 5px;
-  padding-top: 3px;
 }
 
 .details {
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+
+@media(max-width: 845px) {
+  .details {
+    flex-direction: column;
+  }
+  .details * {
+    width: fit-content;
+  }
 }
 
 .questionClass {

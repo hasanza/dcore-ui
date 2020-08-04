@@ -23,7 +23,7 @@ function Question({ question }) {
 
           <p className={styles.time}>
             <FaClock style={{}} />
-            <span style={{ marginLeft: "5px", marginBottom: "5px" }}>
+            <span style={{ marginLeft: "3px", marginBottom: "2px"}}>
               {question.time} min
             </span>
           </p>

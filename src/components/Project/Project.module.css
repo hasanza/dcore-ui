@@ -1,3 +1,14 @@
 .project {
-    cursor: pointer;
+  display: flex;
+  font-size: small;
+  cursor: pointer;
+  height: 100%;
+
+}
+
+.project img {
+    height: 40px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin: 5px;
 }

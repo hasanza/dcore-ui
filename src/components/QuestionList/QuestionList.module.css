@@ -12,3 +12,21 @@
    scrollbar-color: #007480 silver;
    scrollbar-width: thin;
 }
+
+.welcome {
+   display: flex;
+   flex-direction: column;
+   background-color: #FAFAFA; 
+   margin-top: 9px;
+   margin-right: 5px;
+   color: #007480;
+   width: 40%;
+   height: 90vh;
+   border: 1px solid #007490;
+   border-radius: 6px;
+}
+
+.welcome h2 {
+   text-align: center;
+   margin-top: 50%;
+}

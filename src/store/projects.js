@@ -1,6 +1,7 @@
 export const projects = [
   {
     name: "2Local",
+    img: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1594017970097x403506037699021200%2F2020-07-06%252009_45_36-2local%2520-%2520Sustainability%2520and%2520Prosperity.png?w=128&h=128&auto=compress&dpr=1&fit=max",
     data: {
       questions: [
         {
@@ -90,21 +91,22 @@ export const projects = [
     },
   },
   {
-    name: "BitPesa",
+    name: "PointPay",
+    img: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1594623249236x485800458803604030%2F2020-07-13%252009_52_31-WhitePaper__en.pdf.png?w=128&h=128&auto=compress&dpr=1&fit=max",
     data: {
       questions: [
         {
-          title: "Crazzzy review",
+          title: "Is the Market/ industry growing, stagnant or decreasing in value/  activity currently? ",
           description:
-            "Please review the referral schemes and provide a score. High scores indicate strong referrals that give incentive to people to invite their peers.",
-          reward: 0.2,
+            "Please elaborate and provide a score.  A high score would indicate that the market is growing greatly. ",
+          reward: 0.35,
           class: "Market & Product",
           time: 15,
         },
         {
-          title: "What are the World Bank Mentions?",
+          title: "How will the team member’s backgrounds or experience help to make this business a success?",
           description:
-            "Please elaborate and provide a score. High scores indicate a high number of mentions. Go to Youtube, type in the name of the project and see if there are any review or other videos about the project? Does the project have a presence on the platform with their own channel and their own videos?",
+            "Analyze the teams background, past experience,  qualifications. Is it relevant to the project? provide links to their LinkedIn. Give a high rating if their backgrounds and experience will be helpful.",
           reward: 0.1,
           class: "Social & Virality",
           time: 6,
@@ -181,20 +183,21 @@ export const projects = [
   },
   {
     name: "SaTT Token",
+    img: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1595228346838x805114642918018400%2F2020-07-20%252009_57_15-SaTT%2520-%2520Smart%2520Advertising%2520Transaction%2520Token.png?w=128&h=128&auto=compress&dpr=1&fit=max",
     data: {
       questions: [
         {
-          title: "Crazzzy review",
+          title: "Roadmap review",
           description:
-            "Please review the referral schemes and provide a score. High scores indicate strong referrals that give incentive to people to invite their peers.",
-          reward: 0.2,
+            "Perform a road map review and provide a score. High scores indicate a detailed road map, low scores indicate a very basic, incomplete and not well thought of road map",
+          reward: 0.35,
           class: "Market & Product",
           time: 15,
         },
         {
-          title: "What are the World Bank Mentions?",
+          title: "Are the advisors endorsing the project in their social media? Are they interacting with the project?",
           description:
-            "Please elaborate and provide a score. High scores indicate a high number of mentions. Go to Youtube, type in the name of the project and see if there are any review or other videos about the project? Does the project have a presence on the platform with their own channel and their own videos?",
+            "Analyze if the advisors are actively engaged in the project and visibly promoting it / discussing it / writing articles about it - provide links. A high rating indicates that they are highly active",
           reward: 0.1,
           class: "Social & Virality",
           time: 6,
@@ -271,10 +274,11 @@ export const projects = [
   },
   {
     name: "UpBots",
+    img: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1595849073918x371906464584039740%2F2020-07-27%252014_22_12-Swiss%2520Trading%2520Platform%2520%25E2%2580%2593%2520UpBots%2520is%2520the%2520first%2520all-in-one%2520Swiss%2520trading%2520platform%2520o.png?w=128&h=128&auto=compress&dpr=1&fit=max",
     data: {
       questions: [
         {
-          title: "Crazzzy review",
+          title: "Write a short description of what the project is about, their objectives and mission statement",
           description:
             "Please review the referral schemes and provide a score. High scores indicate strong referrals that give incentive to people to invite their peers.",
           reward: 0.2,
@@ -282,9 +286,9 @@ export const projects = [
           time: 15,
         },
         {
-          title: "What are the World Bank Mentions?",
+          title: "Does the product have a good fit, in the current market?",
           description:
-            "Please elaborate and provide a score. High scores indicate a high number of mentions. Go to Youtube, type in the name of the project and see if there are any review or other videos about the project? Does the project have a presence on the platform with their own channel and their own videos?",
+            "Please perform a Product Market Fit Anlysis and provide a score.  A high sore indicates a good product market fit, meaning that it can be foreseen that there will be use of such a product",
           reward: 0.1,
           class: "Social & Virality",
           time: 6,
@@ -361,13 +365,13 @@ export const projects = [
   },
   {
     name: "DeFiPie",
+    img: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1596439014293x134771835883569660%2F2020-08-03%252010_09_23-DeFi%2520Pie%2520_%2520First%2520DeFi%2520LaaS%2520and%2520P2P%2520marketplace%2520%2526%2520Unlock%2520the%2520power%2520of%2520your%2520assets.png?w=128&h=128&auto=compress&dpr=1&fit=max",
     data: {
       questions: [
         {
-          title: "Crazzzy review",
-          description:
-            "Please review the referral schemes and provide a score. High scores indicate strong referrals that give incentive to people to invite their peers.",
-          reward: 0.2,
+          title: "Write a short description of what the project is about, their objectives and mission statement.",
+          description: "Please write a short description of the project in your own words (not a copy paste). In your answer include their objectives (practical steps) and mission statement (vision) (these can be copy paste).   Do not rate (select N/A)",
+          reward: 0.35,
           class: "Market & Product",
           time: 15,
         },
