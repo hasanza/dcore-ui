@@ -38,7 +38,6 @@ function QuestionView() {
               }}
             >
               <Rating/>
-              {/* <h3 style={{ marginLeft: "5px", color: "red" }}>Not Applicable</h3> */}
             </div>
           </div>
           <label
