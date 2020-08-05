@@ -7,8 +7,27 @@
    margin-right: 5px;
    color: white;
    width: 40%;
-   height: 91vh;
-   overflow-y: auto;
+   height: 90vh;
+   overflow: auto;
    scrollbar-color: #007480 silver;
    scrollbar-width: thin;
 }
+
+.welcome {
+   display: flex;
+   flex-direction: column;
+   background-color: #FAFAFA; 
+   margin-top: 7px;
+   margin-right: 5px;
+   color: #007480;
+   width: 40%;
+   height: 99.8%;
+   border: 1px solid #007490;
+   border-radius: 6px;
+}
+
+.welcome h2 {
+   text-align: center;
+   margin-top: 50%;
+}
+

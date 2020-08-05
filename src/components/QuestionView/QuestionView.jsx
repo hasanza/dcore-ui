@@ -2,16 +2,31 @@ import React, { useContext } from "react";
 import styles from "./QuestionView.module.css";
 import { GlobalContext } from "../../store/GlobalState";
 import Fade from "react-reveal/Fade";
+
 //receives question from parent
 function QuestionView() {
   const { viewQuestion } = useContext(GlobalContext);
+
   //receive data as prop from Question and display it.
   if (viewQuestion.description) {
     return (
       <div className={styles.questionView}>
         <h2>{viewQuestion.title}</h2>
+        <div className={styles.reward}>
+          <div className={styles.coin}>RP</div>
+          <span>{viewQuestion.reward}</span>
+        </div>
+
         <p>{viewQuestion.description}</p>
-        <input className={styles.ans}></input>
+        <form action="/">
+          <label
+            style={{ color: "#007480", fontWeight: "700" }}
+            htmlFor="explanation"
+          >
+            Explanation
+          </label>
+          <textarea className={styles.ans}></textarea>
+        </form>
         <p className={styles.submit}>Submit</p>
       </div>
     );

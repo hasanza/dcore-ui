@@ -9,7 +9,12 @@ export default (state, action) => {
       return {
         ...state,
         currentProject: state.currentProject = action.payload
-      }
+      };
+     case "SCRUB":
+       return {
+         ...state,
+         viewQuestion: state.viewQuestion = {}
+       } 
 
     default:
       return state;

@@ -1,9 +1,9 @@
 .projectList {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: white;
-    color: Black;
+    color: black;
     font-size: x-large;
     font-weight: 700;
     align-items: center;
@@ -11,4 +11,6 @@
     border: 1px solid #007480;
     box-shadow: rgb(170, 170, 170) 1px 1px 2px 0px;
     border-radius: 6px;
+    height: fit-content;
+    transition: ease-in;
 }

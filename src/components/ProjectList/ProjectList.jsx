@@ -1,12 +1,18 @@
-import React, {useState, useContext} from 'react'
+import React, { useContext} from 'react'
 import styles from "./ProjectList.module.css";
-import {GlobalState} from "../../store/GlobalState";
+import {GlobalContext} from "../../store/GlobalState";
+import {Project} from "../";
 
 function ProjectList() {
     
+const {projects} = useContext(GlobalContext);    
+
+
     return (
         <div className = {styles.projectList}>
-            Project List here.
+            {projects.map((project, index)=> (
+                <Project key={index} project={project} />
+            ))}
         </div>
     )
 }
