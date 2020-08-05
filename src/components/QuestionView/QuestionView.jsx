@@ -4,11 +4,10 @@ import { GlobalContext } from "../../store/GlobalState";
 import Fade from "react-reveal/Fade";
 import Rating from "react-rating";
 
-//receives question from parent
 function QuestionView() {
   const { viewQuestion } = useContext(GlobalContext);
 
-  //receive data as prop from Question and display it.
+  
   if (viewQuestion.description) {
     return (
       <div className={styles.questionView}>

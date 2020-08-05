@@ -13,8 +13,6 @@ function Question({ question }) {
   };
 
   return (
-    //get data as prop from QuestionList and display it
-    //onClick, tringer common parent state change who sends it to sibling
     <Fade bottom>
       <div
         className={styles.question}

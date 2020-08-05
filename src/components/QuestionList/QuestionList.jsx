@@ -11,9 +11,6 @@ function QuestionList() {
   console.log(questions[0].title);
   if (questions[0].title !== "Welcome") {
     return (
-      //for each question, render a Question component. Access questions
-      //array stored in the global context store.
-
       <div className={styles.questionList}>
         {questions.map((question, index) => (
           <Question question={question} key={index} />
