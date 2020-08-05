@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { ProjectList, Questions } from "./components";
 import { GlobalProvider } from "./store/GlobalState";
+import {FaRegUserCircle} from "react-icons/fa";
 
 function App() {
   return (
@@ -9,6 +10,17 @@ function App() {
       <div className="App">
         <div className="Nav">
           <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1564485715965x221424255250930440%2Ficore_logo_neg.png?w=128&h=24&auto=compress&fit=crop&dpr=1" className="logo"/>
+          <ul className="links">
+            <li>Projects</li>
+            <li>Profile</li>
+            <li>Nominate</li>
+            <li>Support</li>
+            <li>Logout</li>
+          </ul>
+          <div className="user">
+            <FaRegUserCircle style={{marginRight: "10px", height: "30px", width: "30px"}}/>
+            <p>John Marston</p>
+          </div>
         </div>
         <ProjectList />
         <Questions />
