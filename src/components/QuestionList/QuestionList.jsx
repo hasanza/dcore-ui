@@ -22,11 +22,11 @@ function QuestionList() {
     );
   } else
     return (
-      
-        <div class={styles.welcome}>
-          <Fade bottom><h2>Please select a project</h2></Fade>
-        </div>
-  
+      <div className={styles.welcome}>
+        <Fade bottom>
+          <h2>Please select a project</h2>
+        </Fade>
+      </div>
     );
 }
 

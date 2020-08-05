@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import styles from "./QuestionView.module.css";
 import { GlobalContext } from "../../store/GlobalState";
 import Fade from "react-reveal/Fade";
+import Rating from "react-rating";
 
 //receives question from parent
 function QuestionView() {
@@ -19,6 +20,28 @@ function QuestionView() {
 
         <p>{viewQuestion.description}</p>
         <form action="/">
+          <div className={styles.rating}>
+            <label
+              htmlFor="rating"
+              style={{
+                color: "#007480",
+                fontWeight: "700",
+                marginBottom: "5px",
+              }}
+            >
+              Rating
+            </label>
+            <div
+              style={{
+                justifyContent: "flex-start",
+                alignItems: "center",
+                display: "flex",
+              }}
+            >
+              <Rating style={{ textColor: "#007480" }} />
+              {/* <h3 style={{ marginLeft: "5px", color: "red" }}>Not Applicable</h3> */}
+            </div>
+          </div>
           <label
             style={{ color: "#007480", fontWeight: "700" }}
             htmlFor="explanation"

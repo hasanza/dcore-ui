@@ -78,3 +78,9 @@ h2 {
   color: black;
   margin-right: 5px;
 }
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
