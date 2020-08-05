@@ -2,4 +2,37 @@
   font-family: "Titillium Web", sans-serif;
 }
 
+.Nav {
+  background-color: #605d5d;
+  color: #FAFAFA;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  align-items: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.logo {
+ margin-left: 20px;
+ cursor: pointer;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.links li {
+  margin-right: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
 
