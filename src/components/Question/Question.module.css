@@ -10,6 +10,7 @@
   border: 1px solid #007480;
   display: flex;
   flex-direction: column;
+  transition: all 1s ease-in-out;
 }
 
 .selectedQuestion {
