@@ -29,6 +29,7 @@
     font-size: x-large;
     font-weight: 700;
     height: 50px;
+    align-items: center;
     border-bottom: 1px solid #007480;
     border-left: 0.5px solid #007480;
     border-right: 0.5px solid #007480;
