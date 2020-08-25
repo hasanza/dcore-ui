@@ -17,6 +17,7 @@
     border-bottom-right-radius: 6px;
     height: fit-content;
     transition: ease-in;
+    position: relative;
 }
 
 .projectCatalogue {
