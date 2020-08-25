@@ -6,43 +6,37 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "ProjectList", {
   enumerable: true,
   get: function get() {
-    return _ProjectList.default;
+    return _ProjectList["default"];
   }
 });
 Object.defineProperty(exports, "QuestionList", {
   enumerable: true,
   get: function get() {
-    return _QuestionList.default;
+    return _QuestionList["default"];
   }
 });
 Object.defineProperty(exports, "Question", {
   enumerable: true,
   get: function get() {
-    return _Question.default;
+    return _Question["default"];
   }
 });
 Object.defineProperty(exports, "QuestionView", {
   enumerable: true,
   get: function get() {
-    return _QuestionView.default;
+    return _QuestionView["default"];
   }
 });
 Object.defineProperty(exports, "Questions", {
   enumerable: true,
   get: function get() {
-    return _Questions.default;
+    return _Questions["default"];
   }
 });
 Object.defineProperty(exports, "Project", {
   enumerable: true,
   get: function get() {
-    return _Project.default;
-  }
-});
-Object.defineProperty(exports, "ProjectCatalogue", {
-  enumerable: true,
-  get: function get() {
-    return _ProjectCatalogue.default;
+    return _Project["default"];
   }
 });
 
@@ -58,6 +52,4 @@ var _Questions = _interopRequireDefault(require("./Questions/Questions"));
 
 var _Project = _interopRequireDefault(require("./Project/Project"));
 
-var _ProjectCatalogue = _interopRequireDefault(require("./ProjectCatalogue/ProjectCatalogue"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

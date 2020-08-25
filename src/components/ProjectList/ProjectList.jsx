@@ -33,7 +33,7 @@ function ProjectList() {
     return (
       <>
         <div className={styles.projectList}>
-          {projects.slice(0, 5).map((project, index) => (
+          {projects.slice(0, 4).map((project, index) => (
             <Project key={index} project={project} />
           ))}
           <div className={styles.viewAll} onClick={handleClick}>
