@@ -23,7 +23,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     background-color: white;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 144px;
     color: black;
     font-size: x-large;
