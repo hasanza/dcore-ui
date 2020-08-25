@@ -1,8 +1,8 @@
 .project {
-  display: flex;
+  width: fit-content;
   font-size: small;
   cursor: pointer;
-  height: 100%;
+  height: fit-content;
 }
 
 .project img {
@@ -10,4 +10,5 @@
   object-fit: contain;
   border-radius: 6px;
   margin: 5px;
+  
 }

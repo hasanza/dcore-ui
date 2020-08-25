@@ -20,15 +20,18 @@
    background-color: #FAFAFA; 
    margin-top: 7px;
    margin-right: 5px;
+   padding-left: 20px;
+   padding-top: 33px;
    color: #007480;
    width: 40%;
    height: 99.8%;
    border: 1px solid #007490;
    border-radius: 6px;
+
 }
 
 .welcome h2 {
    text-align: center;
-   margin-top: 50%;
+   margin-top: 41%;
 }
 

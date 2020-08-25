@@ -4,4 +4,5 @@ export {default as Question} from "./Question/Question";
 export {default as QuestionView} from "./QuestionView/QuestionView";
 export {default as Questions} from "./Questions/Questions";
 export {default as Project} from "./Project/Project";
+export {default as ProjectCatalogue} from "./ProjectCatalogue/ProjectCatalogue";
 

@@ -3,6 +3,7 @@ import "./App.css";
 import { ProjectList, Questions } from "./components";
 import { GlobalProvider } from "./store/GlobalState";
 import {FaRegUserCircle} from "react-icons/fa";
+import {FaPowerOff} from 'react-icons/fa';
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
             <li>Profile</li>
             <li>Nominate</li>
             <li>Support</li>
-            <li>Logout</li>
           </ul>
           <div className="user">
             <FaRegUserCircle style={{marginRight: "10px", height: "30px", width: "30px", color: "cyan"}}/>
-            <p>John Marston</p>
+            <p style={{marginRight: "10px", cursor: "pointer"}}>John Marston</p>
+            <FaPowerOff style={{cursor: "pointer"}}/>
           </div>
         </div>
         <ProjectList />

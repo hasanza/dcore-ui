@@ -1,7 +1,7 @@
 .projectList {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: white;
     color: black;
     font-size: x-large;
@@ -18,3 +18,38 @@
     height: fit-content;
     transition: ease-in;
 }
+
+.projectCatalogue {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 90px;
+    color: black;
+    font-size: x-large;
+    font-weight: 700;
+    align-items: center; 
+    height: 50px;
+    border-bottom: 1px solid #007480;
+    border-left: 0.5px solid #007480;
+    border-right: 0.5px solid #007480;
+    box-shadow: rgb(170, 170, 170) 0px 1px 2px 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 90vh;
+    transition: ease-in;
+}
+
+.viewAll {
+    cursor: pointer;
+    width: fit-content;
+    padding: 3px;
+    background-color: #605D5D;
+    color: white;
+    border-radius: 7px;
+    height: fit-content;
+    position: absolute;
+    right: 0.77%;
+    top: 11.2%;
+}
+

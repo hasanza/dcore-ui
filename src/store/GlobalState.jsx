@@ -8,6 +8,12 @@ const initialState = {
 
   currentProject: {
     name: "Welcome",
+    info: {
+      details: "Select a Project",
+      phase: "",
+      website: "",
+    },
+    img: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1595228346838x805114642918018400%2F2020-07-20%252009_57_15-SaTT%2520-%2520Smart%2520Advertising%2520Transaction%2520Token.png?w=128&h=128&auto=compress&dpr=1&fit=max",
     data: {
       questions: [
         {

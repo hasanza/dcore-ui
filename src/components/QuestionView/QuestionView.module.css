@@ -17,6 +17,19 @@ h2 {
   margin: 0;
 }
 
+.info {
+  color: #007480;
+  margin-top: 7px;
+  width: 75%;
+  padding: 5px 20px;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+  border-radius: 6px;
+  border: 1px solid #007480;
+  /* text-align: center; */
+}
+
 .submit {
   padding: 2px 13px;
   display: inline-block;
@@ -27,19 +40,6 @@ h2 {
   font-weight: 600;
   width: fit-content;
   cursor: pointer;
-}
-
-.info {
-  color: #007480;
-  margin-top: 7px;
-  width: 75%;
-  padding: 15px;
-  height: 100%;
-  box-sizing: border-box;
-  box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
-  border-radius: 6px;
-  border: 1px solid #007480;
-  text-align: center;
 }
 
 .info h2 {

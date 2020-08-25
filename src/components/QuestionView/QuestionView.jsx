@@ -6,8 +6,8 @@ import Rating from "react-rating";
 
 function QuestionView() {
   const { viewQuestion } = useContext(GlobalContext);
+  const { currentProject } = useContext(GlobalContext);
 
-  
   if (viewQuestion.description) {
     return (
       <div className={styles.questionView}>
@@ -37,7 +37,7 @@ function QuestionView() {
                 display: "flex",
               }}
             >
-              <Rating/>
+              <Rating />
             </div>
           </div>
           <label
@@ -51,15 +51,30 @@ function QuestionView() {
         <p className={styles.submit}>Submit</p>
       </div>
     );
-  } else {
+  } else if (currentProject.info.website === "") {
     return (
-      <div className={styles.info}>
+      <div
+        style={{ textAlign: "center", height: "94.5vh" }}
+        className={styles.info}
+      >
         <Fade bottom>
-          <h2 id={styles.prompt}>Select a question to answer it</h2>
+          <h2>Please select a Project</h2>
         </Fade>
       </div>
     );
   }
+  return (
+    <div className={styles.info} style={{color: "black"}}>
+      <h3>Project Details</h3>
+      <p>{currentProject.info.details}</p>
+      <h3>Project Website</h3>
+      <p>
+        <a href={currentProject.info.website}>{currentProject.info.website}</a>
+      </p>
+      <h3>Project Phase</h3>
+      <p>The project is currently in {currentProject.info.phase}</p>
+    </div>
+  );
 }
 
 export default QuestionView;
