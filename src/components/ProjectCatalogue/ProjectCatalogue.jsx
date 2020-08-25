@@ -1,5 +1,4 @@
-import React, {useContext} from 'react'
-import {GlobalContext} from '../../store/GlobalState';
+import React from 'react'
 
 function ProjectCatalogue() {
     return (
