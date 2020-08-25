@@ -3,12 +3,12 @@
   font-size: small;
   cursor: pointer;
   height: fit-content;
+  margin-top: 10px;
 }
 
 .project img {
   height: 40px;
   object-fit: contain;
   border-radius: 6px;
-  margin: 5px;
   
 }

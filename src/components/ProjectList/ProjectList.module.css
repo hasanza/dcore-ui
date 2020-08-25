@@ -24,11 +24,10 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     background-color: white;
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 130px;
     color: black;
     font-size: x-large;
     font-weight: 700;
-    align-items: center; 
     height: 50px;
     border-bottom: 1px solid #007480;
     border-left: 0.5px solid #007480;
